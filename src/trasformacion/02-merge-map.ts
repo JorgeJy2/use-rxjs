@@ -2,7 +2,7 @@ import { of, interval, fromEvent } from 'rxjs';
 import { mergeMap, take, map, mergeMapTo, takeUntil } from 'rxjs/operators';
 /**
  * MargeMap
- * trafiera el valor resulto por el obvserver ejecutado el cual es mandado 
+ * trasfiere el valor resuelto por el obvserver ejecutado el cual es mandado 
  * como parametro
  * mergeMap(val=>interval(1000))
  * callback que retorna un observable
